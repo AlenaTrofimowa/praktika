@@ -1,0 +1,14 @@
+﻿<Window x:Class="praktika1.Window2"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:praktika1"
+        mc:Ignorable="d"
+        Title="Window2" Height="600" Width="800">
+    <Grid>
+        <TextBlock Text="Корзина" FontSize="30" FontFamily="Book Antiqua" Margin="331,10,315,386"/>
+        <Image Source="Foto/Untitled_logo_2_free-file.jpg" Margin="0,-94,645,418"/>
+
+    </Grid>
+</Window>

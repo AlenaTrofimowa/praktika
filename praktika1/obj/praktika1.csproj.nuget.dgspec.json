@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\student\\Desktop\\praktika1\\praktika1\\praktika1.csproj": {}
+    "E:\\praktika1\\praktika1\\praktika1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\student\\Desktop\\praktika1\\praktika1\\praktika1.csproj": {
+    "E:\\praktika1\\praktika1\\praktika1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\student\\Desktop\\praktika1\\praktika1\\praktika1.csproj",
+        "projectUniqueName": "E:\\praktika1\\praktika1\\praktika1.csproj",
         "projectName": "praktika1",
-        "projectPath": "C:\\Users\\student\\Desktop\\praktika1\\praktika1\\praktika1.csproj",
+        "projectPath": "E:\\praktika1\\praktika1\\praktika1.csproj",
         "packagesPath": "C:\\Users\\student\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\student\\Desktop\\praktika1\\praktika1\\obj\\",
+        "outputPath": "E:\\praktika1\\praktika1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

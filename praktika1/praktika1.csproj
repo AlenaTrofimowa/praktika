@@ -8,12 +8,26 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Foto\5ed9e94e590e117283375a1d.png" />
+    <None Remove="Foto\png-clipart-pencil-computer-icons-graphics-tool-pencil-angle-white.png" />
+    <None Remove="Foto\Untitled_logo_1_free-file.jpg" />
+    <None Remove="Foto\Untitled_logo_2_free-file.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.12" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="7.0.12" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="7.0.12">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Foto\5ed9e94e590e117283375a1d.png" />
+    <Resource Include="Foto\png-clipart-pencil-computer-icons-graphics-tool-pencil-angle-white.png" />
+    <Resource Include="Foto\Untitled_logo_1_free-file.jpg" />
+    <Resource Include="Foto\Untitled_logo_2_free-file.jpg" />
   </ItemGroup>
 
 </Project>

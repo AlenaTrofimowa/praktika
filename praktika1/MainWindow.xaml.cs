@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.SqlServer.Server;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -83,7 +84,14 @@ namespace praktika1
             // Очистка полей
             LoginUsernameTextBox.Text = string.Empty;
             LoginPasswordTextBox.Text = string.Empty;
+
+            {
+                Window1 frm2 = new Window1();
+                frm2.Show();
+                this.Hide();
+            }
         }
+
 
         private void ShowRegistration_Click(object sender, RoutedEventArgs e)
         {

@@ -5,25 +5,26 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:praktika1"
         mc:Ignorable="d"
-           Title="MainWindow" Height="450" Width="800" Background="LightCyan">
+           Title="MainWindow" Height="600" Width="800" Background="WhiteSmoke">
     <Border>
         <Grid>
             <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
-                <TextBlock Text="Регистрация / Авторизация" FontSize="20" Margin="0 0 0 20" Foreground="DarkSlateBlue"/>
+                <TextBlock Text="Регистрация / Авторизация" FontSize="35" Margin="0 0 0 20" Foreground="DarkSlateBlue" FontFamily="Book Antiqua"/>
 
                 <StackPanel x:Name="RegisterPanel" Visibility="Collapsed">
-                    <TextBlock Text="Зарегистрироваться" FontSize="16" FontWeight="Bold" Margin="0 0 0 10" Foreground="MediumSlateBlue"/>
-                    <TextBox x:Name="UsernameTextBox" Text="Имя пользователя" Margin="0 0 0 10" Foreground="MediumSlateBlue"/>
-                    <TextBox x:Name="PasswordTextBox" Text="Пароль" Margin="0 0 0 10" Foreground="MediumSlateBlue"/>
-                    <Button Content="Зарегистрироваться" Click="RegisterButton_Click" Foreground="MediumSlateBlue"/>
+                    <TextBlock Text="Зарегистрироваться" FontSize="20" FontWeight="Bold" Margin="0 0 0 10" Foreground="MediumSlateBlue" FontFamily="Book Antiqua"/>
+                    <TextBox x:Name="UsernameTextBox" Text="Имя пользователя" Margin="0 0 0 10" Foreground="MediumSlateBlue" FontFamily="Book Antiqua" FontSize="20"/>
+                    <TextBox x:Name="PasswordTextBox" Text="Пароль" Margin="0 0 0 10" Foreground="MediumSlateBlue" FontFamily="Book Antiqua" FontSize="20"/>
+                    <Button Content="Зарегистрироваться" Click="RegisterButton_Click" Foreground="MediumSlateBlue" FontFamily="Book Antiqua" FontSize="20"/>
                 </StackPanel>
 
-                <TextBlock Text="Авторизоваться" FontSize="16" FontWeight="Bold" Margin="0 0 0 10" Foreground="MediumSlateBlue"/>
-                <TextBox x:Name="LoginUsernameTextBox" Text="Почта" Margin="0 0 0 10" Foreground="MediumSlateBlue"/>
-                <TextBox x:Name="LoginPasswordTextBox" Text="Пароль" Margin="0 0 0 10" Foreground="MediumSlateBlue"/>
-                <Button Content="Войти" Click="LoginButton_Click" Foreground="MediumSlateBlue"/>
-                <Button Content="Зарегистрироваться" Click="ShowRegistration_Click" Foreground="MediumSlateBlue"/>
+                <TextBlock Text="Авторизоваться" FontSize="20" FontWeight="Bold" Margin="0 0 0 10" Foreground="MediumSlateBlue" FontFamily="Book Antiqua"/>
+                <TextBox x:Name="LoginUsernameTextBox" Text="Почта" Margin="0 0 0 10" Foreground="MediumSlateBlue" FontFamily="Book Antiqua" Height="25" FontSize="20"/>
+                <TextBox x:Name="LoginPasswordTextBox" Text="Пароль" Margin="0 0 0 10" Foreground="MediumSlateBlue" FontFamily="Book Antiqua" Height="25" FontSize="20"/>
+                <Button Content="Войти" Click="LoginButton_Click" Foreground="MediumSlateBlue" FontFamily="Book Antiqua" Height="36" FontSize="20"/>
+                <Button Content="Зарегистрироваться" Click="ShowRegistration_Click" Foreground="MediumSlateBlue" FontFamily="Book Antiqua" Height="36" FontSize="20"/>
             </StackPanel>
+            <Image Source="Foto/Untitled_logo_2_free-file.jpg" Margin="0,-110,649,414"/>
         </Grid>
     </Border>
 </Window>
